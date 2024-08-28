@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport"
+			      content="width=device-width, initial-scale=1.0">
+				<title>Selectors</title>
+				<style>
+				/*id Selector*/
+		   #myid{
+			  font-family:sans-serif;
+		   }
+		   /*class Selector*/
+		   .myclass{
+			  background-color:gold;
+		   }
+		   /*Element Selector*/
+		   h3{
+			  color:green;
+		   }
+		   /*Universal Selector*/
+		   *{
+			  padding:10px;
+			  color:blue;
+			}
+			/*Grouping elements*/
+		   p,h3{
+			  color:Green;
+			}
+			/*Grouping Element with class*/
+		   .myclass, .container{
+			  font-style:italic;
+			}
+	   
+	</style>
+			</head>
+			<body>
+				<p id="myid">This is id selector concept which uses hashtag(#) to define id selector in sytle for an html element.</p>
+				<p class="myclass">This is class selector which is states that uses html element by using period(.) for styling purpose.</p>
+				<p>This is element selector which uses the element name for an selector.</p>
+				<h3>This is universal selector which selects all the html elements in the document which uses the symbol asterik(*).</h3>
+				<div class="container">
+					<h1>Div Container</h1>
+					<p>This id div container with class name as container.</p>
+				</div>
+			</body>
+		</html>
